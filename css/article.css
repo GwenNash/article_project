@@ -1,0 +1,124 @@
+/* All CSS styles go here */
+@font-face {
+font-family: 'Roboto';
+src:url(../fonts/roboto.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Martel Reg'
+  src:url(../fonts/Martel-Reg.ttf) format('truetype');
+}
+
+.img1 {
+  width: 50vw;
+  height: 70vh;
+  background: url("../images/img1.jpg") no-repeat;
+  background-size: cover;
+  display: block;
+  margin-left: 165px;
+  margin-right: auto;
+  margin-top: 25px;
+
+}
+
+.img2 {
+  width: 50vw;
+  height: 70vh;
+  background: url("../images/img2.jpg") no-repeat;
+  background-size: cover;
+  display: block;
+  /* margin-left: auto; */
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.img4 {
+  width: 50vw;
+  height: 70vh;
+  background: url("../images/img4.jpg") no-repeat;
+  background-size: cover;
+  display: block;
+  /* margin-left: auto; */
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.imgcap {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  color: black;
+  width: 800px;
+  letter-spacing: 0.1px;
+  /* line-height: 24px; */
+  margin: auto;
+  margin-top: 10px;
+}
+
+.cover {
+width: 100vw;
+height: 100vh;
+background: url("../images/Img5.jpg") no-repeat center fixed;
+background-size: cover;
+}
+
+.title {
+width: 100vw;
+font-family: 'Roboto', sans-serif;
+font-size: 2.4em;
+color: black;
+background-color: white;
+position: absolute;
+letter-spacing: 0.3px;
+left: 14%;
+bottom: 35%;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: black;
+  width: 800px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.text {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+color: black;
+width: 800px;
+letter-spacing: 0.1px;
+line-height: 24px;
+margin: auto;
+margin-top: 40px;
+}
+
+.container {
+width: 100vw;
+height: 200vh;
+}
+
+.link {
+font-family: 'Roboto'
+font-size: 15px;
+text-align: center;
+color: #6b6b6b;
+letter-spacing: 0.1px;
+margin: auto;
+margin-top: 60px;
+display: block;
+border: solid 2px #939393;
+width: 320px;
+line-height: 24px;
+padding: 10px 0 10px 0;
+text-decoration: none;
+transition: 0.4s;
+}
+
+.link:hover {
+color: white;
+background: #939393;
+transition: 0.4s;
+}
